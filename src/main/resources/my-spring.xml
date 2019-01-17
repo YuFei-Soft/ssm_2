@@ -22,7 +22,7 @@
     <!--mybatis 的工厂类 -->
     <bean id="sqlsessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"></property>
-        <property name="mapperLocations" value="classpath:mapper/*"></property>
+        <!--<property name="mapperLocations" value="classpath:mapper/*"></property>-->
         <!--<property name="configLocation" value="classpath:mybatis‐config.xml"></property>
         --></bean>
     <!-- 根据basePackage的位置产生该位置上的所有mappe接口的实现类，配置成spring中的bean -->
